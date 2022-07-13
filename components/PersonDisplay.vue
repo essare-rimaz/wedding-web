@@ -1,9 +1,9 @@
 <template>
   <div class="flex flex-col items-center font-montserrat tracking-[0.15em] ml-10 mr-10">
     <!-- TODO photo -->
-    <div v-if="!photoPath" class="bg-dark-blue w-28 h-28 rounded-full mb-4" />
-    <img v-else :src="photoPath" class="w-28 h-28 rounded-full mb-4" />
-    <div class="text-light-gray text-xs text-center">
+    <div v-if="!photoPath" :class="additionalStyles" class="bg-dark-blue rounded-full mb-4" />
+    <img v-else :src="photoPath" :class="additionalStyles" class="rounded-full mb-4" />
+    <div :class="roleColor" class="text-xs text-center">
       {{ role.toUpperCase() }}
     </div>
     <div class="text-lg text-center mb-10 lg:mb-6">
@@ -15,7 +15,16 @@
 <script>
 export default {
   name: 'PersonDisplay',
+
   props: {
+    roleColor: {
+      type: String,
+      default: 'text-light-gray'
+    },
+    additionalStyles: {
+      type: String,
+      default: ''
+    },
     name: {
       type: String,
       default: ''

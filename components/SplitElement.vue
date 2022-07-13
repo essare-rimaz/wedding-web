@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/images/splitter.svg" class="w-64 mt-7 mb-9">
+  <img src="@/assets/images/splitter.svg" class="w-64 mt-3 mb-7">
 </template>
 
 <script>

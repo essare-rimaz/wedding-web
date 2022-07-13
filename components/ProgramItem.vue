@@ -5,7 +5,7 @@
       <div v-if="!lastItem" class="w-0.5 flex-grow bg-light-gray" />   <!-- bottom line -->
     </div>
 
-    <div class="flex flex-col font-montserrat tracking-[0.10em]">
+    <div class="flex flex-col font-montserrat tracking-[0.10em] mr-3">
       <h3 class="font-semibold text-lg mb-1">
         {{ title }}
       </h3>

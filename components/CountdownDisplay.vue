@@ -7,7 +7,7 @@
       :key="item.id"
       :label="item.label"
       :count="item.count"
-      class="ml-10 mr-10"
+      class="ml-10 mr-10 mb-4"
     />
   </div>
 </template>
@@ -38,10 +38,9 @@ export default {
     tick () {
       const endTime = DateTime.fromISO(this.endTime)
       const diffTime = endTime.diffNow(['days', 'hours', 'minutes', 'seconds'])
-      // eslint-disable-next-line no-console
-      console.log(DateTime.fromISO(this.endTime).toISO())
+
       this.remainingTime = new HumanDate(diffTime)
-      // this.timer = setTimeout(this.tick, 1000) // update every 1000ms
+      this.timer = setTimeout(this.tick, 1000) // update every 1000ms
     }
   }
 }

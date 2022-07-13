@@ -4,7 +4,7 @@
       <span class="font-semibold">{{ day }}</span>
       <span class="font-regular">{{ year }}</span>
     </time>
-    <address class="not-italic text-center text-pink tracking-[0.15em] text-base xl:text-xl">
+    <address class="not-italic text-center text-pink tracking-[0.15em] text-base xl:text-xl mb-3">
       Čs. Armádního Sboru 6/14<br>
       Prostějov - Vrahovice
     </address>
