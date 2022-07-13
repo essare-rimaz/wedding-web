@@ -1,12 +1,13 @@
 <template>
   <!-- TODO add v-if "už je to tady" -->
-  <div class="flex w-auto">
+  <!-- TODO fix on mobile" -->
+  <div class="grid grid-cols-2 lg:flex lg:w-auto">
     <CountdownItem
       v-for="item in remainingTime.formatted"
       :key="item.id"
       :label="item.label"
       :count="item.count"
-      class="ml-8 mr-8"
+      class="ml-10 mr-10"
     />
   </div>
 </template>
@@ -37,9 +38,10 @@ export default {
     tick () {
       const endTime = DateTime.fromISO(this.endTime)
       const diffTime = endTime.diffNow(['days', 'hours', 'minutes', 'seconds'])
-
+      // eslint-disable-next-line no-console
+      console.log(DateTime.fromISO(this.endTime).toISO())
       this.remainingTime = new HumanDate(diffTime)
-      this.timer = setTimeout(this.tick, 1000) // update every 1000ms
+      // this.timer = setTimeout(this.tick, 1000) // update every 1000ms
     }
   }
 }
