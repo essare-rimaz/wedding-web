@@ -1,7 +1,10 @@
 export default {
+  // Target: https://go.nuxtjs.dev/config-target
+  target: 'static',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'maja-svatba-web',
+    title: 'maja-wedding-web',
     htmlAttrs: {
       lang: 'en'
     },
@@ -32,8 +35,17 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts'
   ],
+
+  googleFonts: {
+    families: {
+      Montserrat: {
+        wght: [300, 400, 600, 700, 800]
+      }
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
