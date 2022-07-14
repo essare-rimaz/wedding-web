@@ -9,27 +9,44 @@
     <SplitElement />
 
     <SectionTitle text="Obecné informace" />
-    <TextContent
-      text="Co si vzít na sebe? Vemte si prosím na sebe něco v čem se budete cítit dobře a pohodlně. Pro milovníky barev a detailů je tu možnost se sladit s výzdobou a ubrouskama, které budou v odstínů modré a světle růžové (budeme jen rádi)."
-    />
-    <TextContent
-      text="Z osobní zkušenosti radím dámám si vzít na sebe pohodlné botičky, kterým vám nebude líto, že se odřou či zničí, jelikož hlavní prostranství je šterkové a obřad bude na zahradě, kde se vám můžou zabodávat podpatky do trávníku a můžete spadnout."
-    />
+    <TextContent>
+      Co si vzít na sebe? Vemte si prosím na sebe něco v čem se budete cítit dobře a pohodlně. Pro milovníky barev a detailů je tu možnost se sladit s výzdobou a ubrouskama, které budou v odstínů modré a světle růžové 😃 (budeme jen rádi 😃).
+    </TextContent>
+    <TextContent>
+      Z osobní zkušenosti radím dámám si vzít na sebe pohodlné botičky, kterým vám nebude líto, že se odřou či zničí, jelikož hlavní prostranství je šterkové a obřad bude na zahradě, kde se vám můžou zabodávat podpatky do trávníku a můžete spadnout.
+    </TextContent>
+    <TextContent>
+      P.S. Stejně se pak všichni převlečeme do něčeho jinýho, jak budeme zpocení 😃... Tak si z toho zas nedělejte tolik vrásky, hlavně že tam všichni budete 😘.
+    </TextContent>
+    <SplitElement />
 
-    <TextContent
-      text="P.S. Stejně se pak všichni převlečeme do něčeho jinýho, jak budeme spocení 😃... Tak si z toho zas nedělejte tolik vrásky, hlavně že tam všichni budete."
-    />
+    <SectionTitle text="Svatební dar" />
+    <TextContent>
+      Jelikož Vás máme rádi a nechceme, abyste složitě vybírali dárky, které by se nám do našeho 1kk nejspíš stejně nevzlezly. Usnadníme Vám to, rádi od vás přijmeme hotovost, kreditky včetně pinu samozřejmě, platné stravenky, jízdenky, či letenky 😃.
+    </TextContent>
     <SplitElement />
 
     <ProgramList :program-items="weddingProgram" />
     <SplitElement />
     <SectionTitle text="Parkování" />
-    <TextContent
-      text="Své kočáry si můžete zaparkovat na velkém neplaceném parkovišti v centru města (viz mapka). Odtud Vás svezeme speciální pouliční autobusovou linkou až na místo konaní velkolepé akce. Zpátky ke svým plechovým mazlíčkům se dostanete (nočním) rozvozem."
-    />
-    <TextContent
-      text="Bohužel není možné parkovat vozidly primo na miste uvnitř, ani před, ani za, ani vedle objektu. Opravdu, nejde. Prosím, nezkoušejte to teda."
-    />
+    <TextContent>
+      Své kočáry si můžete zaparkovat na velkém neplaceném parkovišti v centru města (<a class="transition-colors hover:text-dark-blue underline font-semibold text-pink" target="_black" href="https://en.mapy.cz/turisticka?x=17.1132693&y=49.4703812&z=19&source=coor&id=17.113285433864576%2C49.470237371020225">odkaz na mapy</a>). Odtud Vás svezeme specialní pouliční autobusovou linkou <span class="font-semibold">č. Ng</span> a zpátky ke svým plechovým mazlíčkům se dostanete zajištěným (nočním) rozvozem. Bohužel <span class="font-semibold">není</span> možné parkovat vozidly přímo na místě uvnitř, ani před, ani za, ani vedle objektu. Opravdu, nejde. Prosím, nezkoušejte to teda.
+    </TextContent>
+    <SplitElement />
+
+    <!-- BUS TIMETABLE -->
+    <SectionTitle text="Svoz hostů" />
+    <TextContent>
+      Jízní řád autobusové linky <span class="font-semibold">č. Ng</span>.
+    </TextContent>
+    <ProgramList :program-items="busTimetable" />
+    <SplitElement />
+
+    <!-- ACCOMMODATION -->
+    <SectionTitle text="Ubytování" />
+    <TextContent>
+      Jestliže plánujete i nějaký ten spánek ale ještě nevíte, kam složíte hlavu, prosím kontaktujte nás.
+    </TextContent>
     <SplitElement />
   </div>
 </template>
