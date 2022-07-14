@@ -4,12 +4,6 @@ on:
   push:
     branches: [ master ]
   workflow_dispatch:
-  repository_dispatch:
-    types:
-      # for dispatch from contentful via webhook
-      - deploy
-#  schedule:
-#    - cron: '*/5 * * * *'
 
 concurrency:
   # to disable multiple parallel jobs during changes in contentful
