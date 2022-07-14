@@ -7,12 +7,30 @@
     <SplitElement />
     <CastingList />
     <SplitElement />
+
+    <SectionTitle text="Obecné informace" />
+    <TextContent
+      text="Co si vzít na sebe? Vemte si prosím na sebe něco v čem se budete cítit dobře a pohodlně. Pro milovníky barev a detailů je tu možnost se sladit s výzdobou a ubrouskama, které budou v odstínů modré a světle růžové (budeme jen rádi)."
+    />
+    <TextContent
+      text="Z osobní zkušenosti radím dámám si vzít na sebe pohodlné botičky, kterým vám nebude líto, že se odřou či zničí, jelikož hlavní prostranství je šterkové a obřad bude na zahradě, kde se vám můžou zabodávat podpatky do trávníku a můžete spadnout."
+    />
+
+    <TextContent
+      text="P.S. Stejně se pak všichni převlečeme do něčeho jinýho, jak budeme spocení 😃... Tak si z toho zas nedělejte tolik vrásky, hlavně že tam všichni budete."
+    />
+    <SplitElement />
+
     <ProgramList :program-items="weddingProgram" />
     <SplitElement />
-    <SectionTitle text="Doprava" />
-    <p class="font-montserrat tracking-[0.10em] font-light text-black mb-4 text-center w-3/4">
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-    </p>
+    <SectionTitle text="Parkování" />
+    <TextContent
+      text="Své kočáry si můžete zaparkovat na velkém neplaceném parkovišti v centru města (viz mapka). Odtud Vás svezeme speciální pouliční autobusovou linkou až na místo konaní velkolepé akce. Zpátky ke svým plechovým mazlíčkům se dostanete (nočním) rozvozem."
+    />
+    <TextContent
+      text="Bohužel není možné parkovat vozidly primo na miste uvnitř, ani před, ani za, ani vedle objektu. Opravdu, nejde. Prosím, nezkoušejte to teda."
+    />
+    <SplitElement />
   </div>
 </template>
 
