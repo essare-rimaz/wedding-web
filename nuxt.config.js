@@ -47,7 +47,9 @@ export default {
       Montserrat: {
         wght: [300, 400, 600, 700, 800]
       }
-    }
+    },
+    // preload in header to prevent font blink
+    preload: true
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
