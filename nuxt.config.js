@@ -9,7 +9,7 @@ export default {
   head: {
     title: 'maja-wedding-web',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'cs'
     },
     meta: [
       { charset: 'utf-8' },
@@ -47,7 +47,9 @@ export default {
       Montserrat: {
         wght: [300, 400, 600, 700, 800]
       }
-    }
+    },
+    // preload in header to prevent font blink
+    preload: true
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -59,7 +61,11 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/'
+    baseURL: process.env.NUXT_ROUTER_BASE_URL || '/'
+  },
+
+  router: {
+    base: process.env.NUXT_ROUTER_BASE_URL || '/'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
