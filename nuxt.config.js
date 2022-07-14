@@ -62,6 +62,10 @@ export default {
     baseURL: process.env.NUXT_ROUTER_BASE_URL || '/'
   },
 
+  router: {
+    base: process.env.NUXT_ROUTER_BASE_URL || '/'
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
