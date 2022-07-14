@@ -26,8 +26,10 @@
     </TextContent>
     <SplitElement />
 
+    <SectionTitle text="Program" />
     <ProgramList :program-items="weddingProgram" />
     <SplitElement />
+
     <SectionTitle text="Parkování" />
     <TextContent>
       Své kočáry si můžete zaparkovat na velkém neplaceném parkovišti v centru města (<a class="transition-colors hover:text-dark-blue underline font-semibold text-pink" target="_black" href="https://en.mapy.cz/turisticka?x=17.1132693&y=49.4703812&z=19&source=coor&id=17.113285433864576%2C49.470237371020225">odkaz na mapy</a>). Odtud Vás svezeme specialní pouliční autobusovou linkou <span class="font-semibold">č. Ng</span> a zpátky ke svým plechovým mazlíčkům se dostanete zajištěným (nočním) rozvozem. Bohužel <span class="font-semibold">není</span> možné parkovat vozidly přímo na místě uvnitř, ani před, ani za, ani vedle objektu. Opravdu, nejde. Prosím, nezkoušejte to teda.
@@ -58,16 +60,24 @@ export default {
   name: 'IndexPage',
   data: () => ({
     weddingProgram: [
-      new ProgramDataItem('Otevření Večerky a Svoz hostů', '10:30', 'TODO'),
-      new ProgramDataItem('Sympatické malé občerstvení', '12:00', 'TODO'),
-      new ProgramDataItem('Romantickej obřad', '13:00', 'TODO'),
-      new ProgramDataItem('Tož nějaké to foceníčko', '13:40', 'TODO'),
-      new ProgramDataItem('Tradiční jídlo s nádechem exotiky', '14:40', 'TODO'),
-      new ProgramDataItem('Krájení dortu', '16:00', 'TODO'),
-      new ProgramDataItem('Omotávání kytice', '18:00', 'TODO'),
-      new ProgramDataItem('Tanec novomanželů a další zvrhlosti', '18:30', 'TODO'),
-      new ProgramDataItem('Svatební hry a dražba', '20:00', 'TODO'),
-      new ProgramDataItem('Volná zábavička', '20:30', 'TODO')
+      new ProgramDataItem('Otevření Večerky a Svoz hostů', '10:30', 'Společný svoz autobusem. Více informací v sekci "Svoz hostů".'),
+      new ProgramDataItem('Sympatické malé občerstvení', '12:00', 'Pro seznam jídel skrze nás kontaktujte.'),
+      new ProgramDataItem('Romantickej obřad', '13:00', ''),
+      new ProgramDataItem('Tož nějaké to foceníčko', '13:40', ''),
+      new ProgramDataItem('Tradiční jídlo s nádechem exotiky', '14:40', 'Pro seznam jídel skrze nás kontaktujte.'),
+      new ProgramDataItem('Krájení dortu', '16:00', 'Dort není plastový, tudíž bude jedlý.'),
+      new ProgramDataItem('Omotávání kytice', '18:00', ''),
+      new ProgramDataItem('Tanec novomanželů a další zvrhlosti', '18:30', ''),
+      new ProgramDataItem('Svatební hry a dražba', '20:00', ''),
+      new ProgramDataItem('Volná zábavička', '20:30', '')
+    ],
+    busTimetable: [
+      new ProgramDataItem('Určická 66', '10:45'),
+      new ProgramDataItem('Poliklinika', '11:00'),
+      new ProgramDataItem('Plumlovská 43', '11:05'),
+      new ProgramDataItem('Vrahovice', '11:15'),
+      new ProgramDataItem('Parkoviště Komenského', '11:40'),
+      new ProgramDataItem('Vrahovice', '11:50')
     ]
   })
 }

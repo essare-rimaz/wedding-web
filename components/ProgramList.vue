@@ -1,6 +1,5 @@
 <template>
   <div class="flex flex-col items-center">
-    <SectionTitle text="Program" />
     <div>
       <ProgramItem
         v-for="(item, index) of programItems"

@@ -1,4 +1,4 @@
-const { DateTime, Duration, Settings } = require('luxon')
+const { DateTime, Duration, Settings, Interval } = require('luxon')
 
 // Setting default timezone
 Settings.defaultLocale = 'cs-CZ'
@@ -22,4 +22,4 @@ class HumanDate {
   }
 }
 
-export { DateTime, Duration, Settings, HumanDate }
+export { DateTime, Duration, Settings, HumanDate, Interval }
