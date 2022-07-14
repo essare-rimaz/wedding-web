@@ -7,7 +7,7 @@
     <SplitElement />
     <CastingList />
     <SplitElement />
-    <WeddingProgram />
+    <ProgramList :program-items="weddingProgram" />
     <SplitElement />
     <SectionTitle text="Doprava" />
     <p class="font-montserrat tracking-[0.10em] font-light text-black mb-4 text-center w-3/4">
@@ -17,8 +17,24 @@
 </template>
 
 <script>
+import { ProgramDataItem } from '@/utils/program'
+
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  data: () => ({
+    weddingProgram: [
+      new ProgramDataItem('Otevření Večerky a Svoz hostů', '10:30', 'TODO'),
+      new ProgramDataItem('Sympatické malé občerstvení', '12:00', 'TODO'),
+      new ProgramDataItem('Romantickej obřad', '13:00', 'TODO'),
+      new ProgramDataItem('Tož nějaké to foceníčko', '13:40', 'TODO'),
+      new ProgramDataItem('Tradiční jídlo s nádechem exotiky', '14:40', 'TODO'),
+      new ProgramDataItem('Krájení dortu', '16:00', 'TODO'),
+      new ProgramDataItem('Omotávání kytice', '18:00', 'TODO'),
+      new ProgramDataItem('Tanec novomanželů a další zvrhlosti', '18:30', 'TODO'),
+      new ProgramDataItem('Svatební hry a dražba', '20:00', 'TODO'),
+      new ProgramDataItem('Volná zábavička', '20:30', 'TODO')
+    ]
+  })
 }
 </script>
 
