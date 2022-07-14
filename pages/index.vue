@@ -1,6 +1,11 @@
 <template>
   <div class="flex flex-col items-center">
-    <img src="@/assets/images/intro_photo.png" class="mb-8 lg:mb-16 object-cover w-full h-64 lg:h-auto" />
+    <img
+      src="@/assets/images/intro_photo.png"
+      width="1920"
+      height="697"
+      class="mb-8 lg:mb-16 object-cover w-full h-64 lg:h-auto"
+    />
     <EssentialInfoDisplay day="30.7." year="2022" />
     <SplitElement />
     <CountdownDisplay end-time="2022-07-30T10:30:00.000+02:00" />
