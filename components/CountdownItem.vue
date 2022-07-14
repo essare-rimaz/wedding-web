@@ -1,9 +1,9 @@
 <template>
   <div class="flex-1 flex flex-col items-center">
-    <div class="font-montserrat font-semibold text-dark-blue text-3xl">
+    <div class="font-montserrat font-semibold text-dark-blue text-2xl lg:text-3xl">
       {{ count }}
     </div>
-    <div class="font-montserrat font-light text-black text-xl">
+    <div class="font-montserrat font-light text-black text-lg lg:text-xl">
       {{ label }}
     </div>
   </div>
