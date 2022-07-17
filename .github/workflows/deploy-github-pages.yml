@@ -11,8 +11,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  NUXT_ROUTER_BASE_URL: '/maja-wedding-web/'
-  FULL_BASE_URL: 'https://SonyPony.github.io/maja-wedding-web/'
+  NUXT_ROUTER_BASE_URL: '/'
+  FULL_BASE_URL: 'https://ngubackovi.cz/'
 
 jobs:
   build_and_deploy:
