@@ -60,7 +60,7 @@
 
     <SectionTitle text="Parkování" />
     <TextContent>
-      Své přibližovadla si můžete zaparkovat na velkém neplaceném parkovišti v centru města (<a href="https://en.mapy.cz/s/pomonucese" class="underline hover:text-dark-blue text-pink font-semibold">odkaz na mapy</a>). Odtud Vás svezeme specialní pouliční autobusovou linkou <span class="font-semibold">č. Ng</span> a zpátky ke svým plechovým mazlíčkům se dostanete zajištěným rozvozem.
+      Své přibližovadla si můžete zaparkovat na velkém neplaceném parkovišti v centru města (<a target="_blank" href="https://en.mapy.cz/s/pomonucese" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">odkaz na mapy</a>). Odtud Vás svezeme specialní pouliční autobusovou linkou <span class="font-semibold">č. Ng</span> a zpátky ke svým plechovým mazlíčkům se dostanete zajištěným rozvozem.
     </TextContent>
     <TextContent>
       Bohužel <span class="font-semibold">není</span> možné parkovat vozidly přímo na místě ani uvnitř, ani před, ani za, ani vedle objektu. Opravdu, nejde. Našim rozvozem ale pohodlně přepravíme Vás všechny včetně kočárků či jíných zavazadel 😉.
