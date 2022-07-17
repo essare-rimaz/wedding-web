@@ -14,6 +14,18 @@
     <CastingList />
     <SplitElement />
 
+    <SectionTitle text="Obecné informace" />
+    <TextContent>
+      Co si vzít na sebe? Vemte si prosím na sebe něco v čem se budete cítit dobře a pohodlně. Pro milovníky barev a detailů je tu možnost se sladit s výzdobou a ubrouskama, které budou v odstínů <span class="font-semibold">modré a světle růžové</span> 😃 (budeme jen rádi 😃).
+    </TextContent>
+    <TextContent>
+      Z osobní zkušenosti doporučujeme dámám se obout do pohodlných botiček (ideálně bez podpadku), kterých Vám nebude líto, že se odřou či zničí. Hlavní prostranství je totiž šterkové a obřad bude na zatravněné zahradě, kde se Vám můžou zabodávat podpatky do hlíny a můžete upadnout.
+    </TextContent>
+    <TextContent>
+      P.S. Stejně se pak všichni převlečeme do něčeho jinýho, jak budeme zpocení 😃... Tak si z toho zas nedělejte tolik vrásky, hlavně že tam všichni budete 😘.
+    </TextContent>
+    <SplitElement />
+
     <SectionTitle text="Problem fixers" />
     <TextContent>
       Pokud budete potřebovat po přijezdu na místo někam nasměrovat, s něčím poradit, nebo vyřešit nějaký problém, vyhledejte pomoc našich dvou statných pomocníků.
@@ -36,16 +48,21 @@
     </div>
     <SplitElement />
 
-    <SectionTitle text="Obecné informace" />
+    <SectionTitle text="Parkování" />
     <TextContent>
-      Co si vzít na sebe? Vemte si prosím na sebe něco v čem se budete cítit dobře a pohodlně. Pro milovníky barev a detailů je tu možnost se sladit s výzdobou a ubrouskama, které budou v odstínů <span class="font-semibold">modré a světle růžové</span> 😃 (budeme jen rádi 😃).
+      Své přibližovadla si můžete zaparkovat na velkém neplaceném parkovišti v centru města (<a target="_blank" href="https://en.mapy.cz/s/pomonucese" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">odkaz na mapy</a>). Odtud Vás svezeme specialní pouliční autobusovou linkou <span class="font-semibold">č. Ng</span> a zpátky ke svým plechovým mazlíčkům se dostanete zajištěným rozvozem.
     </TextContent>
     <TextContent>
-      Z osobní zkušenosti doporučujeme dámám se obout do pohodlných botiček (ideálně bez podpadku), kterých Vám nebude líto, že se odřou či zničí. Hlavní prostranství je totiž šterkové a obřad bude na zatravněné zahradě, kde se Vám můžou zabodávat podpatky do hlíny a můžete upadnout.
+      Bohužel <span class="font-semibold">není</span> možné parkovat vozidly přímo na místě ani uvnitř, ani před, ani za, ani vedle objektu. Opravdu. Nejde. Našim rozvozem ale pohodlně přepravíme Vás všechny včetně kočárků či jíných zavazadel 😉.
     </TextContent>
+    <SplitElement />
+
+    <!-- BUS TIMETABLE -->
+    <SectionTitle text="Svoz hostů" />
     <TextContent>
-      P.S. Stejně se pak všichni převlečeme do něčeho jinýho, jak budeme zpocení 😃... Tak si z toho zas nedělejte tolik vrásky, hlavně že tam všichni budete 😘.
+      Jízní řád autobusové linky <span class="font-semibold">č. Ng</span>.
     </TextContent>
+    <ProgramList :program-items="busTimetable" />
     <SplitElement />
 
     <SectionTitle text="Svatební dar" />
@@ -56,23 +73,6 @@
 
     <SectionTitle text="Program" />
     <ProgramList :program-items="weddingProgram" />
-    <SplitElement />
-
-    <SectionTitle text="Parkování" />
-    <TextContent>
-      Své přibližovadla si můžete zaparkovat na velkém neplaceném parkovišti v centru města (<a target="_blank" href="https://en.mapy.cz/s/pomonucese" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">odkaz na mapy</a>). Odtud Vás svezeme specialní pouliční autobusovou linkou <span class="font-semibold">č. Ng</span> a zpátky ke svým plechovým mazlíčkům se dostanete zajištěným rozvozem.
-    </TextContent>
-    <TextContent>
-      Bohužel <span class="font-semibold">není</span> možné parkovat vozidly přímo na místě ani uvnitř, ani před, ani za, ani vedle objektu. Opravdu, nejde. Našim rozvozem ale pohodlně přepravíme Vás všechny včetně kočárků či jíných zavazadel 😉.
-    </TextContent>
-    <SplitElement />
-
-    <!-- BUS TIMETABLE -->
-    <SectionTitle text="Svoz hostů" />
-    <TextContent>
-      Jízní řád autobusové linky <span class="font-semibold">č. Ng</span>.
-    </TextContent>
-    <ProgramList :program-items="busTimetable" />
     <SplitElement />
 
     <!-- ACCOMMODATION -->
