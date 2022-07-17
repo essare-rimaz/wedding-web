@@ -10,7 +10,30 @@
     <SplitElement />
     <CountdownDisplay end-time="2022-07-30T10:30:00.000+02:00" />
     <SplitElement />
+
     <CastingList />
+    <SplitElement />
+
+    <SectionTitle text="Problem fixers" />
+    <TextContent>
+      Pokud budete potřebovat po přijezdu na místo někam nasměrovat, s něčím poradit, nebo vyřešit nějaký problém, vyhledejte pomoc našich dvou statných pomocníků.
+    </TextContent>
+    <div class="flex flex-row">
+      <PersonDisplay
+        name="Martin"
+        role=""
+        :photo-path="require('@/assets/images/martin_photo.png')"
+        class="order-3 lg:order-1"
+        additional-styles="w-16 h-16 lg:w-20 lg:h-20"
+      />
+      <PersonDisplay
+        name="Filip"
+        role=""
+        :photo-path="require('@/assets/images/filip_photo.png')"
+        class="order-3 lg:order-1"
+        additional-styles="w-16 h-16 lg:w-20 lg:h-20"
+      />
+    </div>
     <SplitElement />
 
     <SectionTitle text="Obecné informace" />
@@ -18,7 +41,7 @@
       Co si vzít na sebe? Vemte si prosím na sebe něco v čem se budete cítit dobře a pohodlně. Pro milovníky barev a detailů je tu možnost se sladit s výzdobou a ubrouskama, které budou v odstínů modré a světle růžové 😃 (budeme jen rádi 😃).
     </TextContent>
     <TextContent>
-      Z osobní zkušenosti radím dámám si vzít na sebe pohodlné botičky, kterým vám nebude líto, že se odřou či zničí, jelikož hlavní prostranství je šterkové a obřad bude na zahradě, kde se vám můžou zabodávat podpatky do trávníku a můžete spadnout.
+      Z osobní zkušenosti doporučujeme dámám se obout do pohodlných botiček (ideálně bez podpadku), kterých Vám nebude líto, že se odřou či zničí. Hlavní prostranství je totiž šterkové a obřad bude na zatravněné zahradě, kde se Vám můžou zabodávat podpatky do hlíny a můžete upadnout.
     </TextContent>
     <TextContent>
       P.S. Stejně se pak všichni převlečeme do něčeho jinýho, jak budeme zpocení 😃... Tak si z toho zas nedělejte tolik vrásky, hlavně že tam všichni budete 😘.
@@ -27,7 +50,7 @@
 
     <SectionTitle text="Svatební dar" />
     <TextContent>
-      Jelikož Vás máme rádi a nechceme, abyste složitě vybírali dárky, které by se nám do našeho 1kk nejspíš stejně nevzlezly. Usnadníme Vám to, rádi od vás přijmeme hotovost, kreditky včetně pinu samozřejmě, platné stravenky, jízdenky, či letenky 😃.
+      Jelikož Vás máme rádi, tak nechceme, abyste složitě vybírali dárky, které by se nám do našeho 1kk bytečku nejspíš stejně nevzlezly. Usnadníme Vám to - rádi od Vás přijmeme hotovost, kreditky (včetně pinu samozřejmě), platné stravenky, jízdenky, či letenky 😃.
     </TextContent>
     <SplitElement />
 
@@ -37,7 +60,10 @@
 
     <SectionTitle text="Parkování" />
     <TextContent>
-      Své kočáry si můžete zaparkovat na velkém neplaceném parkovišti v centru města (<a class="transition-colors hover:text-dark-blue underline font-semibold text-pink" target="_black" href="https://en.mapy.cz/turisticka?x=17.1132693&y=49.4703812&z=19&source=coor&id=17.113285433864576%2C49.470237371020225">odkaz na mapy</a>). Odtud Vás svezeme specialní pouliční autobusovou linkou <span class="font-semibold">č. Ng</span> a zpátky ke svým plechovým mazlíčkům se dostanete zajištěným (nočním) rozvozem. Bohužel <span class="font-semibold">není</span> možné parkovat vozidly přímo na místě uvnitř, ani před, ani za, ani vedle objektu. Opravdu, nejde. Prosím, nezkoušejte to teda.
+      Své přibližovadla si můžete zaparkovat na velkém neplaceném parkovišti v centru města (odkaz na mapy). Odtud Vás svezeme specialní pouliční autobusovou linkou č. Ng a zpátky ke svým plechovým mazlíčkům se dostanete zajištěným rozvozem.
+    </TextContent>
+    <TextContent>
+      Bohužel není možné parkovat vozidly přímo na místě ani uvnitř, ani před, ani za, ani vedle objektu. Opravdu, nejde. Našim rozvozem ale pohodlně přepravíme Vás všechny včetně kočárků či jíných zavazadel 😉.
     </TextContent>
     <SplitElement />
 
@@ -66,10 +92,10 @@ export default {
   data: () => ({
     weddingProgram: [
       new ProgramDataItem('Otevření Večerky a Svoz hostů', '10:30', 'Společný svoz autobusem. Více informací v sekci "Svoz hostů".'),
-      new ProgramDataItem('Sympatické malé občerstvení', '12:00', 'Pro seznam jídel skrze nás kontaktujte.'),
+      new ProgramDataItem('Sympatické malé občerstvení', '12:00', 'Pokud máte nějaké omezení, kontaktujte nás prosím.'),
       new ProgramDataItem('Romantickej obřad', '13:00', ''),
       new ProgramDataItem('Tož nějaké to foceníčko', '13:40', ''),
-      new ProgramDataItem('Tradiční jídlo s nádechem exotiky', '14:40', 'Pro seznam jídel skrze nás kontaktujte.'),
+      new ProgramDataItem('Tradiční jídlo s nádechem exotiky', '14:40', 'Pokud máte nějaké omezení, kontaktujte nás prosím.'),
       new ProgramDataItem('Krájení dortu', '16:00', 'Dort není plastový, tudíž bude jedlý.'),
       new ProgramDataItem('Omotávání kytice', '18:00', ''),
       new ProgramDataItem('Tanec novomanželů a další zvrhlosti', '18:30', ''),

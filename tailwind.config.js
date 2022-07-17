@@ -8,7 +8,7 @@ module.exports = {
         'dark-blue': '#24396D',
         pink: '#D1A1B3',
         black: colors.black,
-        'light-gray': '#A8A8A8'
+        'light-gray': '#898989'
       },
       fontFamily: {
         montserrat: ['Montserrat']
