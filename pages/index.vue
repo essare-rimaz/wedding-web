@@ -81,6 +81,9 @@
       Jestliže plánujete i nějaký ten spánek ale ještě nevíte, kam složíte hlavu, prosím kontaktujte nás.
     </TextContent>
     <SplitElement />
+    <TextContent>
+      <span class="text-sm">S láskou vytvořili Son Hai Nguyen, Josef Kolář a Jana Hantáková © 2022</span>
+    </TextContent>
   </div>
 </template>
 
