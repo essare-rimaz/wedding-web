@@ -7,7 +7,7 @@ export default {
   // },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'maja-wedding-web',
+    title: 'Ngubáčkovi',
     htmlAttrs: {
       lang: 'cs'
     },

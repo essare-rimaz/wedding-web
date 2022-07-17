@@ -38,7 +38,7 @@
 
     <SectionTitle text="Obecné informace" />
     <TextContent>
-      Co si vzít na sebe? Vemte si prosím na sebe něco v čem se budete cítit dobře a pohodlně. Pro milovníky barev a detailů je tu možnost se sladit s výzdobou a ubrouskama, které budou v odstínů modré a světle růžové 😃 (budeme jen rádi 😃).
+      Co si vzít na sebe? Vemte si prosím na sebe něco v čem se budete cítit dobře a pohodlně. Pro milovníky barev a detailů je tu možnost se sladit s výzdobou a ubrouskama, které budou v odstínů <span class="font-semibold">modré a světle růžové</span> 😃 (budeme jen rádi 😃).
     </TextContent>
     <TextContent>
       Z osobní zkušenosti doporučujeme dámám se obout do pohodlných botiček (ideálně bez podpadku), kterých Vám nebude líto, že se odřou či zničí. Hlavní prostranství je totiž šterkové a obřad bude na zatravněné zahradě, kde se Vám můžou zabodávat podpatky do hlíny a můžete upadnout.
@@ -60,10 +60,10 @@
 
     <SectionTitle text="Parkování" />
     <TextContent>
-      Své přibližovadla si můžete zaparkovat na velkém neplaceném parkovišti v centru města (odkaz na mapy). Odtud Vás svezeme specialní pouliční autobusovou linkou č. Ng a zpátky ke svým plechovým mazlíčkům se dostanete zajištěným rozvozem.
+      Své přibližovadla si můžete zaparkovat na velkém neplaceném parkovišti v centru města (<a href="https://en.mapy.cz/s/pomonucese" class="underline hover:text-dark-blue text-pink font-semibold">odkaz na mapy</a>). Odtud Vás svezeme specialní pouliční autobusovou linkou <span class="font-semibold">č. Ng</span> a zpátky ke svým plechovým mazlíčkům se dostanete zajištěným rozvozem.
     </TextContent>
     <TextContent>
-      Bohužel není možné parkovat vozidly přímo na místě ani uvnitř, ani před, ani za, ani vedle objektu. Opravdu, nejde. Našim rozvozem ale pohodlně přepravíme Vás všechny včetně kočárků či jíných zavazadel 😉.
+      Bohužel <span class="font-semibold">není</span> možné parkovat vozidly přímo na místě ani uvnitř, ani před, ani za, ani vedle objektu. Opravdu, nejde. Našim rozvozem ale pohodlně přepravíme Vás všechny včetně kočárků či jíných zavazadel 😉.
     </TextContent>
     <SplitElement />
 
