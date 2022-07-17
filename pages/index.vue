@@ -91,7 +91,8 @@ export default {
   name: 'IndexPage',
   data: () => ({
     weddingProgram: [
-      new ProgramDataItem('Otevření Večerky a Svoz hostů', '10:30', 'Společný svoz autobusem. Více informací v sekci "Svoz hostů".'),
+      new ProgramDataItem('Otevření Večerky', '6:00', ''),
+      new ProgramDataItem('Svoz hostů', '10:30', 'Společný svoz autobusem. Více informací v sekci "Svoz hostů".'),
       new ProgramDataItem('Sympatické malé občerstvení', '12:00', 'Pokud máte nějaké omezení, kontaktujte nás prosím.'),
       new ProgramDataItem('Romantickej obřad', '13:00', ''),
       new ProgramDataItem('Tož nějaké to foceníčko', '13:40', ''),
@@ -100,7 +101,7 @@ export default {
       new ProgramDataItem('Omotávání kytice', '18:00', ''),
       new ProgramDataItem('Tanec novomanželů a další zvrhlosti', '18:30', ''),
       new ProgramDataItem('Svatební hry a dražba', '20:00', ''),
-      new ProgramDataItem('Volná zábavička', '20:30', '')
+      new ProgramDataItem('Volná zábavička', '21:00', '')
     ],
     busTimetable: [
       new ProgramDataItem('Určická 66', '10:45'),
