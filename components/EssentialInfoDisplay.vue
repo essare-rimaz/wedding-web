@@ -4,10 +4,11 @@
       <span class="font-semibold">{{ day }}</span>
       <span class="font-regular">{{ year }}</span>
     </time>
-    <a target="_blank" href="https://mapy.cz/zakladni?x=17.1497549&y=49.4803952&z=17&q=%C4%8Cs.%20Arm%C3%A1dn%C3%ADho%20Sboru%206%2F14%20Prost%C4%9Bjov%20-%20Vrahovice&source=addr&id=11443939&ds=1">
+    <a target="_blank" href="https://borovinka.cz/contact">
       <address class="hover:text-dark-blue transition-colors not-italic text-center text-pink tracking-[0.15em] text-base xl:text-xl mb-3">
-        Čs. Armádního Sboru 6/14<br>
-        Prostějov - Vrahovice
+        <SectionTitle text="Borovinka Les Resort" /><br>
+        Domanín 127<br>
+        Bystřice nad Pernštejnem
       </address>
     </a>
   </div>

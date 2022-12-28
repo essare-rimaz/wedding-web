@@ -67,3 +67,15 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+contentfull -> definovat data co sosá web (headless cms)
+umí export a import dat -> musím si vytvořit účet
+
+do nuxt.config.js musím hodit token z API contentfull aby se to na sebe napojilo (space ID a CDA ID)
+
+stáhnout contentfull-cli -> udělat import, a pro import budu muset dát argumenty: space ID (dostanu z registrace), manag token (taky dostanu)
+content file (je zaverzovanej v gitu)
+
+je to statická stránka at the end of the day a tu můžu vystavit jako github page a tím pádem nepotřebuju server
+
+secrets se nastavují v nastavení github repozitáře

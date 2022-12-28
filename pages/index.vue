@@ -1,14 +1,14 @@
 <template>
   <div class="flex flex-col items-center">
     <img
-      src="@/assets/images/intro_photo.png"
+      src="@/assets/images/happy_couple_placeholder.png"
       width="1920"
       height="697"
       class="mb-8 lg:mb-16 object-cover w-full h-64 lg:h-auto"
     />
-    <EssentialInfoDisplay day="30.7." year="2022" />
+    <EssentialInfoDisplay day="7.10." year="2023" />
     <SplitElement />
-    <CountdownDisplay end-time="2022-07-30T10:30:00.000+02:00" />
+    <CountdownDisplay end-time="2023-10-30T10:30:00.000+02:00" />
     <SplitElement />
 
     <CastingList />
@@ -82,7 +82,7 @@
     </TextContent>
     <SplitElement />
     <TextContent>
-      <span class="text-sm">S láskou vytvořili Son Hai Nguyen, Josef Kolář a Jana Hantáková © 2022</span>
+      <span class="text-sm">S láskou vytvořil Richard Mazúr za milé pomoci Josefa Koláře s téměř plagiátorskou inspirací u Son Hai Nguyen © 2023</span>
     </TextContent>
   </div>
 </template>
