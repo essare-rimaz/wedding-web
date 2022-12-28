@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{314:function(t,n,c){t.exports=c.p+"img/splitter.a79cc74.svg"},322:function(t,n,c){"use strict";c.r(n);var e={name:"SplitElement"},l=c(46),component=Object(l.a)(e,(function(){return(0,this._self._c)("img",{staticClass:"w-64 mt-3 mb-7",attrs:{src:c(314)}})}),[],!1,null,"c9752d08",null);n.default=component.exports}}]);
