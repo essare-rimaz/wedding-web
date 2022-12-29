@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  NUXT_ROUTER_BASE_URL: '/'
+  NUXT_ROUTER_BASE_URL: '/wedding-web/'
   FULL_BASE_URL: 'https://essare-rimaz.github.io/wedding-web/'
 
 jobs:
