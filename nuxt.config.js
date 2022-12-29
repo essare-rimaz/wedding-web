@@ -7,7 +7,7 @@ export default {
   // },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Ngubáčkovi',
+    title: 'Mičánkovi',
     htmlAttrs: {
       lang: 'cs'
     },
