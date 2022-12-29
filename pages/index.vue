@@ -94,17 +94,13 @@ export default {
   name: 'IndexPage',
   data: () => ({
     weddingProgram: [
-      new ProgramDataItem('Otevření Večerky', '6:00', ''),
-      new ProgramDataItem('Svoz hostů', '10:30', 'Společný svoz autobusem. Více informací v sekci "Svoz hostů".'),
-      new ProgramDataItem('Sympatické malé občerstvení', '12:00', 'Pokud máte nějaké omezení, kontaktujte nás prosím.'),
-      new ProgramDataItem('Romantickej obřad', '13:00', ''),
-      new ProgramDataItem('Tož nějaké to foceníčko', '13:40', ''),
-      new ProgramDataItem('Tradiční jídlo s nádechem exotiky', '14:40', 'Pokud máte nějaké omezení, kontaktujte nás prosím.'),
-      new ProgramDataItem('Krájení dortu', '16:00', 'Dort není plastový, tudíž bude jedlý.'),
-      new ProgramDataItem('Omotávání kytice', '18:00', ''),
-      new ProgramDataItem('Tanec novomanželů a další zvrhlosti', '18:30', ''),
-      new ProgramDataItem('Svatební hry a dražba', '20:00', ''),
-      new ProgramDataItem('Volná zábavička', '21:00', '')
+      new ProgramDataItem('Příjezd hostů', '13:00'),
+      new ProgramDataItem('Obřad', '14:30', ''),
+      new ProgramDataItem('Focení & Aktivity pro hosty', '15:00', ''),
+      new ProgramDataItem('První tanec', '17:30'),
+      new ProgramDataItem('Tančírna & Raut', '17:35', 'Pokud máte nějaké omezení, kontaktujte nás prosím.'),
+      new ProgramDataItem('Velký kvíz', '19:00', ''),
+      new ProgramDataItem('Volná zábava', '20:00', '')
     ],
     busTimetable: [
       new ProgramDataItem('Určická 66', '10:45'),
