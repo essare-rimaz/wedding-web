@@ -16,13 +16,16 @@
 
     <SectionTitle text="Obecné informace" />
     <TextContent>
-      Co si vzít na sebe? Vemte si prosím na sebe něco v čem se budete cítit dobře a pohodlně. Pro milovníky barev a detailů je tu možnost se sladit s výzdobou a ubrouskama, které budou v odstínů <span class="font-semibold">modré a světle růžové</span> 😃 (budeme jen rádi 😃).
+      Pro jednodušší organizaci a pro přehled, prosím vyplňte krátký dotazník. Dotazy jsou čistě praktické a pro nás velice důležité. Pokud na této stránce přece jen nenajdete odpovědi na Vaše otázky, kontaktujte nás nebo naše svědky.
+    </TextContent>
+    <SplitElement />
+
+    <SectionTitle text="Dress code" />
+    <TextContent>
+      Co si vzít na sebe? Vemte si prosím na sebe něco v čem se budete cítit dobře a pohodlně. Pro milovníky barev a detailů je tu možnost se sladit s výzdobou, která bude v barvách <span class="font-semibold">podzimu</span> 😃 (budeme jen rádi 😃).
     </TextContent>
     <TextContent>
-      Z osobní zkušenosti doporučujeme dámám se obout do pohodlných botiček (ideálně bez podpadku), kterých Vám nebude líto, že se odřou či zničí. Hlavní prostranství je totiž šterkové a obřad bude na zatravněné zahradě, kde se Vám můžou zabodávat podpatky do hlíny a můžete upadnout.
-    </TextContent>
-    <TextContent>
-      P.S. Stejně se pak všichni převlečeme do něčeho jinýho, jak budeme zpocení 😃... Tak si z toho zas nedělejte tolik vrásky, hlavně že tam všichni budete 😘.
+      Prosím, mějte na paměti, že počasí může být všelijaké, ale podzim je podzim. Takže se vybavte nějakými svetříky nebo jiným teplým oblečením. V případě nehezkého počasí, bude obřad probíhat pod pergolou. Pokud by byla opravdu velká zima, bude se vše odehrávat uvnitř.
     </TextContent>
     <SplitElement />
 
@@ -48,26 +51,9 @@
     </div>
     <SplitElement />
 
-    <SectionTitle text="Parkování" />
+    <SectionTitle text="Svatební dary" />
     <TextContent>
-      Své přibližovadla si můžete zaparkovat na velkém neplaceném parkovišti v centru města (<a target="_blank" href="https://en.mapy.cz/s/pomonucese" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">odkaz na mapy</a>). Odtud Vás svezeme specialní pouliční autobusovou linkou <span class="font-semibold">č. Ng</span> a zpátky ke svým plechovým mazlíčkům se dostanete zajištěným rozvozem.
-    </TextContent>
-    <TextContent>
-      Bohužel <span class="font-semibold">není</span> možné parkovat vozidly přímo na místě ani uvnitř, ani před, ani za, ani vedle objektu. Opravdu. Nejde. Našim rozvozem ale pohodlně přepravíme Vás všechny včetně kočárků či jíných zavazadel 😉.
-    </TextContent>
-    <SplitElement />
-
-    <!-- BUS TIMETABLE -->
-    <SectionTitle text="Svoz hostů" />
-    <TextContent>
-      Jízní řád autobusové linky <span class="font-semibold">č. Ng</span>.
-    </TextContent>
-    <ProgramList :program-items="busTimetable" />
-    <SplitElement />
-
-    <SectionTitle text="Svatební dar" />
-    <TextContent>
-      Jelikož Vás máme rádi, tak nechceme, abyste složitě vybírali dárky, které by se nám do našeho 1kk bytečku nejspíš stejně nevzlezly. Usnadníme Vám to - rádi od Vás přijmeme hotovost, kreditky (včetně pinu samozřejmě), platné stravenky, jízdenky, či letenky 😃.
+      Jelikož Vás máme rádi, tak nechceme, abyste složitě vybírali dárky, které by se nám hodily a líbily. Usnadníme Vám to - rádi od Vás příjmeme hotovost (popř. kreditky včetně pinu samozřejmě). Pokud byste chtěli dávat nějaké předměty nebo poukazy, je možné nakouknout do inspirační tabulky.  Největším dárkem pro nás ale bude vaše přítomnost. <3
     </TextContent>
     <SplitElement />
 
@@ -78,12 +64,24 @@
     <!-- ACCOMMODATION -->
     <SectionTitle text="Ubytování" />
     <TextContent>
-      Jestliže plánujete i nějaký ten spánek ale ještě nevíte, kam složíte hlavu, prosím kontaktujte nás.
+      Jestliže plánujete i nějaký ten spánek ale ještě nevíte, kam složíte hlavu, prosím vyplňte dotazník, kde je pár dotazů zaměřeno přímo na téma ubytování. (<a target="_blank" href="https://www.borovinka.cz/rooms" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">Zde</a>) je možnost podívat se na pokoje v penzionu (pokoj č. 5 si zabírají novomanželé 🙂). Pokud bude příliš mnoho zájemců o ubytování, přednost budou mít členové rodiny. Pokoje jsou po více postelých, takže je to spíš ubytování pro větší skupiny lidí cca po pěti lidech.
     </TextContent>
     <SplitElement />
+
+    <SectionTitle text="Parkování" />
+    <TextContent>
+      Jsou tady dvě možnosti. Své kočáry si můžete zaparkovat buď (<a target="_blank" href="https://mapy.cz/s/nuvoculame" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">přímo před penzionem</a>), kde se to všechno bude konat a nebo na (<a target="_blank" href="https://mapy.cz/s/nugurulana" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">neplaceném parkovišti v centru města </a>). Pokud se rozhodnete své kočáry zaparkovat ve městě, rádi pro Vás zajedeme. Parkovacích míst je před penzionem nanejvýš 11, takže budou přednostně určeny pro rodinu, starší, těhotné a pohybově omezené.
+    </TextContent>
+    <SplitElement />
+
+    <SectionTitle text="Aktivity mimo program" />
+    <TextContent>
+      Na pozemku je možné si zahrát minigolf, pétanque, volejbal a pro největší otužilce tam je i rybník. Pro nejmenší je poblíž hřiště. Asi 100 m od penzionu je lanové centrum. To ale není součástí resortu a tudíž není zdarma. Kdo by měl přece jen zájem, je třeba se objednat předem (<a target="_blank" href="https://www.outdoordomanin.cz/oteviraci-doba/" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">zde</a>).
+    </TextContent>
     <TextContent>
       <span class="text-sm">S láskou vytvořil Richard Mazúr za milé pomoci Josefa Koláře s téměř plagiátorskou inspirací u Son Hai Nguyen © 2023</span>
     </TextContent>
+    <SplitElement />
   </div>
 </template>
 
