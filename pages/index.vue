@@ -1,11 +1,12 @@
 <template>
   <div class="flex flex-col items-center">
     <img
-      src="@/assets/images/happy_couple_placeholder.png"
+      src="@/assets/images/intro_pokus.png"
       width="1920"
       height="697"
       class="mb-8 lg:mb-16 object-cover w-full h-64 lg:h-auto"
     />
+    <SplitElement />
     <EssentialInfoDisplay day="7.10." year="2023" />
     <SplitElement />
     <CountdownDisplay end-time="2023-10-30T10:30:00.000+02:00" />
@@ -53,7 +54,7 @@
 
     <SectionTitle text="Svatební dary" />
     <TextContent>
-      Jelikož Vás máme rádi, tak nechceme, abyste složitě vybírali dárky, které by se nám hodily a líbily. Usnadníme Vám to - rádi od Vás příjmeme hotovost (popř. kreditky včetně pinu samozřejmě). Pokud byste chtěli dávat nějaké předměty nebo poukazy, je možné nakouknout do inspirační tabulky.  Největším dárkem pro nás ale bude vaše přítomnost. <3
+      Jelikož Vás máme rádi, tak nechceme, abyste složitě vybírali dárky, které by se nám hodily a líbily. Usnadníme Vám to - rádi od Vás příjmeme hotovost (popř. kreditky včetně pinu samozřejmě). Pokud byste chtěli dávat nějaké předměty nebo poukazy, je možné nakouknout do inspirační tabulky.  Největším dárkem pro nás ale bude vaše přítomnost.
     </TextContent>
     <SplitElement />
 
@@ -64,20 +65,21 @@
     <!-- ACCOMMODATION -->
     <SectionTitle text="Ubytování" />
     <TextContent>
-      Jestliže plánujete i nějaký ten spánek ale ještě nevíte, kam složíte hlavu, prosím vyplňte dotazník, kde je pár dotazů zaměřeno přímo na téma ubytování. (<a target="_blank" href="https://www.borovinka.cz/rooms" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">Zde</a>) je možnost podívat se na pokoje v penzionu (pokoj č. 5 si zabírají novomanželé 🙂). Pokud bude příliš mnoho zájemců o ubytování, přednost budou mít členové rodiny. Pokoje jsou po více postelých, takže je to spíš ubytování pro větší skupiny lidí cca po pěti lidech.
+      Jestliže plánujete i nějaký ten spánek ale ještě nevíte, kam složíte hlavu, prosím vyplňte dotazník, kde je pár dotazů zaměřeno přímo na téma ubytování. <a target="_blank" href="https://www.borovinka.cz/rooms" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">Zde</a> je možnost podívat se na pokoje v penzionu (pokoj č. 5 si zabírají novomanželé 🙂). Pokud bude příliš mnoho zájemců o ubytování, přednost budou mít členové rodiny. Pokoje jsou po více postelých, takže je to spíš ubytování pro větší skupiny lidí cca po pěti lidech.
     </TextContent>
     <SplitElement />
 
     <SectionTitle text="Parkování" />
     <TextContent>
-      Jsou tady dvě možnosti. Své kočáry si můžete zaparkovat buď (<a target="_blank" href="https://mapy.cz/s/nuvoculame" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">přímo před penzionem</a>), kde se to všechno bude konat a nebo na (<a target="_blank" href="https://mapy.cz/s/nugurulana" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">neplaceném parkovišti v centru města </a>). Pokud se rozhodnete své kočáry zaparkovat ve městě, rádi pro Vás zajedeme. Parkovacích míst je před penzionem nanejvýš 11, takže budou přednostně určeny pro rodinu, starší, těhotné a pohybově omezené.
+      Jsou tady dvě možnosti. Své kočáry si můžete zaparkovat buď <a target="_blank" href="https://mapy.cz/s/nuvoculame" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">přímo před penzionem</a>, kde se to všechno bude konat a nebo na <a target="_blank" href="https://mapy.cz/s/nugurulana" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">neplaceném parkovišti v centru města</a>. Pokud se rozhodnete své kočáry zaparkovat ve městě, rádi pro Vás zajedeme. Parkovacích míst je před penzionem nanejvýš 11, takže budou přednostně určeny pro rodinu, starší, těhotné a pohybově omezené.
     </TextContent>
     <SplitElement />
 
     <SectionTitle text="Aktivity mimo program" />
     <TextContent>
-      Na pozemku je možné si zahrát minigolf, pétanque, volejbal a pro největší otužilce tam je i rybník. Pro nejmenší je poblíž hřiště. Asi 100 m od penzionu je lanové centrum. To ale není součástí resortu a tudíž není zdarma. Kdo by měl přece jen zájem, je třeba se objednat předem (<a target="_blank" href="https://www.outdoordomanin.cz/oteviraci-doba/" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">zde</a>).
+      Na pozemku je možné si zahrát minigolf, pétanque, volejbal a pro největší otužilce tam je i rybník. Pro nejmenší je poblíž hřiště. Asi 100 m od penzionu je lanové centrum. To ale není součástí resortu a tudíž není zdarma. Kdo by měl přece jen zájem, je třeba se <a target="_blank" href="https://www.outdoordomanin.cz/oteviraci-doba/" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">objednat předem</a>.
     </TextContent>
+    <SplitElement />
     <TextContent>
       <span class="text-sm">S láskou vytvořil Richard Mazúr za milé pomoci Josefa Koláře s téměř plagiátorskou inspirací u Son Hai Nguyen © 2023</span>
     </TextContent>
