@@ -6,7 +6,7 @@
       <PersonDisplay
         name="Anna Poláková"
         role="Nevěsta"
-        :photo-path="require('@/assets/images/anna_polakova_photo_brightness_new.png')"
+        :photo-path="require('@/assets/images/anna_polakova_photo.png')"
         class="order-1 lg:order-1 lg:flex"
         additional-styles="w-20 h-20 lg:w-28 lg:h-28"
         role-color="text-pink"
@@ -14,7 +14,7 @@
       <PersonDisplay
         name="Jakub Mičánek"
         role="Ženich"
-        :photo-path="require('@/assets/images/jakub_micanek_photo_new.jpg')"
+        :photo-path="require('@/assets/images/jakub_micanek_photo.png')"
         class="order-1 lg:order-1 lg:flex"
         additional-styles="w-20 h-20 lg:w-28 lg:h-28"
         role-color="text-pink"
@@ -24,14 +24,14 @@
       <PersonDisplay
         name="Richard Mazúr"
         role="Svědek ženicha"
-        :photo-path="require('@/assets/images/richard_mazur_new.png')"
+        :photo-path="require('@/assets/images/richard_mazur_photo.png')"
         class="order-2 lg:order-2 lg:flex"
         additional-styles="w-16 h-16 lg:w-20 lg:h-20"
       />
       <PersonDisplay
         name="Kateřina Puczoková"
-        role="Svědek nevěsty"
-        :photo-path="require('@/assets/images/katerina_puczokova_photo_new.jpg')"
+        role="Svědkyně nevěsty"
+        :photo-path="require('@/assets/images/katerina_puczokova_photo.jpg')"
         class="order-1 lg:order-1 lg:flex"
         additional-styles="w-16 h-16 lg:w-20 lg:h-20"
       />
