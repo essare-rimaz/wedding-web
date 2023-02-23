@@ -15,7 +15,7 @@
     <CastingList />
     <SplitElement />
 
-    <SectionTitle text="Obecné informace" />
+    <SectionTitle text="Obecné info" />
     <TextContent>
       Pro jednodušší organizaci a pro přehled vyplňte, prosím,  krátký dotazník. Dotazy jsou čistě praktické a pro nás velice důležité.
     </TextContent>
@@ -59,7 +59,7 @@
     </TextContent>
     <SplitElement />
 
-    <SectionTitle text="Aktivity mimo program" />
+    <SectionTitle text="Další aktivity" />
     <TextContent>
       Na pozemku je možné zahrát si minigolf, pétanque, volejbal, a pro největší otužilce tam je i rybník. Pro ty nejmenší je poblíž hřiště. Asi 100m od penzionu je lanové centrum. To ale není součástí resortu a tudíž není zdarma. Kdo by měl přece jen zájem, je třeba se <a target="_blank" href="https://www.outdoordomanin.cz/oteviraci-doba/" class="underline hover:text-dark-blue text-pink font-semibold transition-colors">objednat předem</a>.
     </TextContent>
