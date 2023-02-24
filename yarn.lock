@@ -7442,6 +7442,11 @@ postcss-nesting@^8.0.1:
   resolved "https://registry.yarnpkg.com/postcss-nesting/-/postcss-nesting-8.0.1.tgz#4a8ab3c540a0f138fd3f5d2ee65e4a24d1888024"
   integrity sha512-cHPNhW5VvRQjszFDxmy16mis9qFQqQLBNw6KVmueLqqE3M182ZAk9+QoxGqbGVryzLVhannw2B5Yhosqq522fA==
 
+postcss-nesting@^9.0.1:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-nesting/-/postcss-nesting-9.0.0.tgz#27f4e3c77b384915183651c8628accc9df63d745"
+  integrity sha512-DfyKp9OX2z6mKP/9KWa4k6vMyA7Z+n97tY6ZS905H7VyQgaQ8WVpQjYd+tMN4uZHwHZueG+W8mApFabGYkEwzg==
+
 postcss-normalize-charset@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/postcss-normalize-charset/-/postcss-normalize-charset-4.0.1.tgz#8b35add3aee83a136b0471e0d59be58a50285dd4"
@@ -7749,10 +7754,19 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.1.10, postcss@^8.1.6, postcss@^8.2.15, postcss@^8.3.5, postcss@^8.4.14, postcss@^8.4.4:
+postcss@^8.1.10, postcss@^8.1.6, postcss@^8.2.15, postcss@^8.3.5, postcss@^8.4.14:
   version "8.4.14"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.14.tgz#ee9274d5622b4858c1007a74d76e42e56fd21caf"
   integrity sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig==
+  dependencies:
+    nanoid "^3.3.4"
+    picocolors "^1.0.0"
+    source-map-js "^1.0.2"
+
+postcss@^8.4.4:
+  version "8.4.21"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.21.tgz#c639b719a57efc3187b13a1d765675485f4134f4"
+  integrity sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==
   dependencies:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
