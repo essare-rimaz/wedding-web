@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  NUXT_ROUTER_BASE_URL: '/wedding-web/'
+  NUXT_ROUTER_BASE_URL: '/'
   FULL_BASE_URL: 'https://ajesvatba.cz/'
 
 jobs:
