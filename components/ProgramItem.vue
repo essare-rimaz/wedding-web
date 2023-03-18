@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-row">
     <div class="flex flex-col items-center ml-3 mr-12 lg:mr-16">
-      <div class="w-2.5 h-2.5 bg-pink rounded-full mt-2 mb-2" />
+      <div class="w-2.5 h-2.5 bg-orange rounded-full mt-2 mb-2" />
       <div v-if="!lastItem" class="w-0.5 flex-grow bg-light-gray" />   <!-- bottom line -->
     </div>
 

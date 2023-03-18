@@ -9,7 +9,7 @@
         :photo-path="require('@/assets/images/anna_polakova_photo.png')"
         class="order-1 lg:order-1 lg:flex"
         additional-styles="w-20 h-20 lg:w-28 lg:h-28"
-        role-color="text-pink"
+        role-color="text-orange"
       />
       <PersonDisplay
         name="Jakub Mičánek"
@@ -17,7 +17,7 @@
         :photo-path="require('@/assets/images/jakub_micanek_photo.png')"
         class="order-1 lg:order-1 lg:flex"
         additional-styles="w-20 h-20 lg:w-28 lg:h-28"
-        role-color="text-pink"
+        role-color="text-orange"
       />
     </div>
     <div class="grid grid-cols-2 lg:items-end">
@@ -31,7 +31,7 @@
       <PersonDisplay
         name="Kateřina Puczoková"
         role="Svědkyně nevěsty"
-        :photo-path="require('@/assets/images/katerina_puczokova_photo.jpg')"
+        :photo-path="require('@/assets/images/katerina_puczokova_photo.png')"
         class="order-1 lg:order-1 lg:flex"
         additional-styles="w-16 h-16 lg:w-20 lg:h-20"
       />

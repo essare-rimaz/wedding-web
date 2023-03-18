@@ -5,7 +5,7 @@
       <span class="font-regular">{{ year }}</span>
     </time>
     <a target="_blank" href="https://borovinka.cz/contact">
-      <address class="hover:text-dark-blue transition-colors not-italic text-center text-pink tracking-[0.15em] text-base xl:text-xl mb-3">
+      <address class="hover:text-orange transition-colors not-italic text-center text-dark-blue tracking-[0.15em] text-base xl:text-xl mb-3">
         <SectionTitle text="Borovinka Les Resort" /><br>
         Domanín 127<br>
         Bystřice nad Pernštejnem
