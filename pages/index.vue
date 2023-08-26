@@ -9,7 +9,7 @@
     <SplitElement />
     <EssentialInfoDisplay day="7.10." year="2023" />
     <SplitElement />
-    <CountdownDisplay end-time="2023-10-30T10:30:00.000+02:00" />
+    <CountdownDisplay end-time="2023-10-07T14:30:00.000+02:00" />
     <SplitElement />
 
     <CastingList />
